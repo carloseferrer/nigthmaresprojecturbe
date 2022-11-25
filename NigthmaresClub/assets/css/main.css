@@ -1,0 +1,206 @@
+body{
+    background-color: black;
+}
+
+
+.navbar-brand img{
+    width: 90px;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+
+
+.navbar-nav{
+    align-items: center;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 1.1em;
+    padding: .5em 1em;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    color: #ff0000;
+    transition: 0.4 all ease-out;
+    
+}
+
+.navbar-toggler{
+    color: #fff;
+}
+
+.navbar-toggler span{
+    color: #fff;
+}
+
+@media screen and (min-width: 992px){
+    .navbar-brand img{
+        width: 130px;
+    }
+    .navbar-brand {
+        
+        margin-right: 0;
+        padding: 0 1em;
+    }
+
+    
+}
+
+.c-item {
+    height: 480px;
+}
+  
+.c-img {
+    height: 100%;
+    object-fit:cover;
+    filter: brightness(0.3);
+}
+
+
+.section-news{
+	
+}
+
+.section-news-title{
+	margin-bottom: 60px;
+}
+
+.section-news-title h4{
+	font-size: 30px;
+    color: #ff0000;
+}
+
+
+
+.section-news{
+	padding-top: 100px;	
+	padding-bottom: 90px;
+}
+
+figure {
+	margin: 0 0 1rem;
+} 
+
+
+.card-img{
+	margin-bottom: 0;
+}
+
+.card-text{
+    padding: 30px;
+	box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.742);
+}
+
+.card-text:hover{
+    padding: 30px;
+	box-shadow: 0px 10px 10px rgba(255, 5, 5, 0.742);
+    transition: 0.3s ease-out;
+    cursor: default;
+}
+
+
+.card-date{
+	color: #00decf;
+	margin-bottom: 15px;
+	letter-spacing: 2px;
+	font-size: 14px;
+}
+
+.card-text h4{
+	font-size: 20px;
+	font-family: 'Libre Franklin', sans-serif;
+	color: #fff;
+}
+
+@media only screen and (max-width: 479px) {
+	.card-text {
+		padding: 15px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.card-item {
+		margin-bottom: 30px;
+	}
+}
+
+.c-item2 {
+    height: 480px;
+}
+  
+.c-img2 {
+    height: 100%;
+    object-fit:cover;
+}
+
+.imagen-derecha{
+    padding-bottom: 20px;
+    padding-top: 20;
+}
+
+@media only screen and (max-width: 768px) {
+	.imagen-derecha{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+}
+
+
+.section-destacados-title{
+	margin-bottom: 90px;
+}
+
+.section-destacados-title h4{
+    margin-top: 40px;
+	font-size: 30px;
+    color: #ff0000;
+    margin-bottom: 70px;
+}
+
+.btn.px-3.me-2:hover span{
+    color: #fff;
+}
+
+.btn.px-3.me-2:hover a{
+    color: #fff;
+}
+
+.btn.px-3.me-2:hover{
+    background-color: #ff0000;
+    color: #fff;
+    
+}
+
+
+
+.fa-solid.fa-user:hover {
+    color: #fff;
+}
+
+
+#email-error{
+    color: red;
+}
+
+@media only screen and (max-width: 768px) {
+	.texto-footer{
+        padding-top:15px ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
